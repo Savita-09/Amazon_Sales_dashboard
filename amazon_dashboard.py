@@ -381,7 +381,7 @@ _LEGEND_BASE = dict(bgcolor="rgba(0,0,0,0)", font=dict(color=_FONT_COLOR))
 @st.cache_data
 def load_data():
     df = pd.read_csv(
-        r"C:\Users\savita\Downloads\Amazon.csv",
+        r"Amazon.csv",
         encoding="latin-1",
         on_bad_lines="skip",
     )
